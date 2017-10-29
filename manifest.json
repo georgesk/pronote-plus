@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Pronote-Plus",
+  "version": "1.0",
+
+  "description": "Enrichissement des possibilités de Pronote",
+
+  "icons": {
+      "48": "icons/favicon-48.png",
+      "96": "icons/favicon-96.png"
+  },
+
+  "permissions": [
+      "activeTab",
+      "clipboardWrite"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/favicon-48.png",
+    "default_title": "Pronote-Plus",
+    "default_popup": "popup/pronote-plus.html"
+  }
+
+}
